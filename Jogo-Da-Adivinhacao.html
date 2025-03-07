@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Adivinhação</title>
+</head>
+<body>
+    
+    <center>
+    
+    <h1> Jogo da Adivinhação</h1>
+    
+    <script>
+        let chute = prompt("Qual número eu estou pensando?")
+        
+        let numeroaleatorio = Math.random()*10;
+        let numeroaleatoriointeiro = Math.round(numeroaleatorio)
+        //document.write(numeroaleatoriointeiro);
+
+        if (numeroaleatoriointeiro == chute){
+        document.write("Parabéns, eu estava pensando neste mesmo! O número: " + numeroaleatoriointeiro + ".");
+        } else if (numeroaleatoriointeiro) {
+            document.write("Ah que pena, você errou. O número que eu pensei foi: " + numeroaleatoriointeiro + ".");
+        }  
+        
+
+    </script>
+    </center>
+</body>
+</html>
