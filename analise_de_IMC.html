@@ -9,6 +9,7 @@
     <center>
 
     <h1>Calculadora de IMC</h1>
+    
 
     <script>
         let peso = prompt("Insira seu peso (em kg)");
@@ -26,12 +27,16 @@
         } else if (imc <= 18.5) {
             document.write("Seu IMC indica que você está abaixo do peso. Considere consultar um profissional de saúde.");
         } else {
-            document.write("Seu IMC indica que você está acima do peso. Considere consultar um profissional de saúde.");
+            document.write("Seu IMC indica que você está acima do peso. Considere consultar um profissional de saúde. <br>");
         }
 
-        
+    
     </script>
 
+    <center> 
+        <br>
+        <button onclick="location.reload()">Reiniciar Página</button>
     </center>
+    
 </body>
 </html>
